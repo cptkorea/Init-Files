@@ -30,6 +30,7 @@ def install_packages():
         "htop",
         "java-common",
         "odbcinst",
+        "python3.10-venv"
         "unixodbc",
         "unixodbc-dev",
         "wget",
