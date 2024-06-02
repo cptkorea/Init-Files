@@ -6,9 +6,6 @@ setopt autocd
 setopt histappend
 unsetopt beep
 bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/doty/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -36,4 +33,3 @@ if [ -f ~/.zsh_aliases ]; then
     . ~/.zsh_aliases
 fi
 
-[ -s "/Users/doty/.dnx/dnvm/dnvm.sh" ] && . "/Users/doty/.dnx/dnvm/dnvm.sh" # Load dnvm
