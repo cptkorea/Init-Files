@@ -26,7 +26,6 @@ def run(*args):
 def install_packages():
     packages = [
         "atop",
-        "fish",
         "htop",
         "java-common",
         "odbcinst",
