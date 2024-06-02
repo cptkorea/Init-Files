@@ -1,3 +1,6 @@
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000

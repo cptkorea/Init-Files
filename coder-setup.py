@@ -41,8 +41,8 @@ def install_packages():
 
 
 def change_shell():
-    run("sudo", "chsh", "-s", "/usr/bin/fish", os.environ["USER"])
-    run("/usr/bin/fish", "./setup.fish")
+    # run("sudo", "chsh", "-s", "/usr/bin/fish", os.environ["USER"])
+    # run("/usr/bin/fish", "./setup.fish")
 
 
 def configure_git():
